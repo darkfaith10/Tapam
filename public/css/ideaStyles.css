@@ -1,0 +1,94 @@
+html {
+    text-align: center;
+}
+
+body {
+    background-color: #e8e2ff;
+}
+
+.brand-img {
+    margin-top: 50px;
+    height: 50px;
+}
+
+.user-profile {
+    margin-top: -50px;
+    margin-right: 100px;
+    text-align: right;
+}
+
+/* .home-icon {
+    margin-top: -50px;
+    margin-left: 100px;
+    text-align: left;
+} */
+
+.idea {
+    text-align: 40%;
+    width: 80%;
+    padding-top: .5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 6%;
+    font-family: Poppins;
+    font-size: large;
+    margin: 50px auto;
+    background: white;
+    border-radius: 7px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+
+.idea-form-item {
+    margin: 15px;
+    margin-left: 70px;
+    width: 255px;
+    height: 40px;
+    border: rgb(149, 150, 151);
+    border-style: solid;    
+    border-radius: 10px;
+    font-size: 1rem;
+    padding-left: 5px;
+    margin-bottom: 30px;
+}
+
+.idea-form-item-area {
+    margin-right: 15px;
+    margin-left: 40px;
+    width: 600px;
+    border: rgb(149, 150, 151);
+    border-style: solid;    
+    border-radius: 10px;
+    font-size: 1rem;
+    padding-left: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.textarea {
+    margin-top: 50px;
+}
+
+.signUpButton {
+    margin-top: 50px;
+    font-size:19px;
+    font-family: Poppins;
+    width:110px;
+    height:40px;
+    border-width:1px;
+    color:#fff;
+    border-color:#484a4b;
+    font-weight:bold;
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px;
+    text-shadow: 0px 1px 0px #3d768a;
+    background: #282A3A;
+  }
+  
+  .signUpButton:hover {
+    color: #484a4b;
+    background:linear-gradient(#E4E9FD, #E4E9FD);
+    
+  }

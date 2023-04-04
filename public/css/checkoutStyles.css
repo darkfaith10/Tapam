@@ -1,0 +1,28 @@
+html {
+    text-align: center;
+}
+
+h5 {
+    margin: 30px;
+}
+
+.navbar-color {
+    background-color: #1E134D;
+}
+
+.navbar-right{
+    padding: 2px;
+    text-align: right;
+}
+
+
+.navbar-brand {
+    margin-left: 35px;
+    padding-left: 10px;
+}
+
+.brand-img1 {
+    height: 25px;
+    width: 70px;
+    color: #E4E9FD;
+}

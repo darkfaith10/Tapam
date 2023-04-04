@@ -1,0 +1,128 @@
+html {
+    background-color: #E4E9FD;
+    background-image: -webkit-linear-gradient(-65deg, #1E134D 60%, #6F5ACD 40%);
+    min-height: 500px;
+    font-family: 'helvetica neue';
+  }
+  
+  h1 {
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+    font-family: 'Poppins';
+  }
+
+  h3{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  a {
+    color: #c6d0f8;
+  }
+
+  .form-heading{
+    background-color: #E4E9FD;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+
+  .box {
+    padding-top: .5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 6%;
+    font-family: Poppins;
+    font-size: large;
+    height: 625px;
+    max-width: 500px;
+    margin: 30px auto;
+    background: white;
+    border-radius: 7px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  }
+
+  .box-label {
+    margin-left: 3px;
+    align-items: left;
+  }
+
+  .item {
+    margin: 1rem;
+    min-height: 70px;
+    border-bottom: 3px solid #F1F1F1;
+  }
+
+  .box-item {
+    margin: 15px;
+    margin-left: 70px;
+    width: 255px;
+    height: 40px;
+    border: rgb(149, 150, 151);
+    border-style: solid;    
+    border-radius: 10px;
+    font-size: 1rem;
+    padding-left: 5px;
+  }
+
+  .firstName {
+    margin-left: 90px;
+  }
+
+  .lastName {
+    margin-left: 90px;
+  }
+
+  .email{
+    margin-left: 136px;
+  }
+
+  .password {
+    margin-left: 98px;
+  }
+
+  .confirmPassword {
+    margin-left: 20px;
+  }
+
+  .description {
+    margin-left: 30px;
+  }
+
+  .submitButton-div{
+    margin-top: 30px;
+    text-align: center;
+  }
+
+ 
+.signUpButton {
+    font-size:19px;
+    font-family: Poppins;
+    width:110px;
+    height:40px;
+    border-width:1px;
+    color:#fff;
+    border-color:#484a4b;
+    font-weight:bold;
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px;
+    text-shadow: 0px 1px 0px #3d768a;
+    background: #282A3A;
+  }
+  
+  .signUpButton:hover {
+    color: #484a4b;
+    background:linear-gradient(#E4E9FD, #E4E9FD);
+    
+  }
+
+  .footer {
+    text-align: center;
+  }
+                
+  

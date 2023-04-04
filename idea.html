@@ -1,0 +1,71 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/ideaStyles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:ital@0;1&family=Poppins&family=Tiro+Devanagari+Hindi&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Tapam</title>
+</head>
+
+<body>
+    <div class="page-heading">
+        <a class="navbar-brand" href="#"><img class="brand-img"
+                src="https://fontmeme.com/permalink/230329/050743a5a724d43f8a32b01a70bc8d16.png" alt="hindi"
+                border="0"></a>
+    </div>
+
+    <div class="user-profile">
+        <div class="dropdown">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person dropdown-toggle" viewBox="0 0 16 16" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+            </svg>
+            <!-- <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown button
+            </button> -->
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li><a class="dropdown-item" href="#">Log Out</a></li>
+            </ul>
+          </div>
+    </div>
+    <div class="idea">
+        <form action="/submitIdea" method="post" class="idea-form">
+            <label for="">Idea's Title : </label>
+            <input type="text" class="idea-form-item">
+            <br>
+            <label for="" class="idea-label">Domain of the project : </label>
+            <input type="text" class="idea-form-item" name="" id="">
+            <br>
+            <div class="textarea">
+                <label for="">What problem will it solve?</label>
+                <br>
+                <textarea name="" id="" cols="30" rows="5" class="idea-form-item-area"
+                    placeholder="enter the problem your project will solve."></textarea>
+            </div>
+            <br>
+            <label for="">Approximate cost of development : </label>
+            <input type="text" class="idea-form-item">
+            <br>
+            <label for="">UPI Id for funding : </label>
+            <input type="text" name="" id="" class="idea-form-item">
+            <div class="submitButton-div">
+                <button type="submit" class="signUpButton" name="item">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

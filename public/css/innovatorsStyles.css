@@ -1,0 +1,134 @@
+html {
+    font-family: "Poppins";
+}
+
+hr {
+    margin-left: 44%;
+    border-top: 3px dotted #1E134D;
+    width: 200px;
+}
+
+/*navbar*/
+.navbar-color {
+    background-color: #1E134D;
+}
+
+.white-section {
+    background-color: #6F5ACD;
+  }
+
+.navbar-right{
+    padding: 2px;
+    text-align: right;
+}
+
+
+.navbar-brand {
+    margin-left: 35px;
+    padding-left: 10px;
+}
+
+.brand-img {
+    height: 25px;
+    width: 70px;
+    color: #E4E9FD;
+}
+
+.nav-item {
+    font-size: 18px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.section-heading {
+    color: #1E134D;
+    font-weight: 600;
+    font-size: 50px;
+    padding-bottom: 40px;
+}
+
+/*ideas section*/
+#idea-section {
+    
+    padding: 70px;
+    padding-top: 100px; 
+    font-family: "Montserrat";
+    text-align: center;
+  }
+  
+  .idea-column {
+    padding: 5% 2%;
+  }
+
+  .card {
+    height: 350px;
+    border-radius: 25px;
+    position: relative;
+  }
+
+  .card-body {
+    padding: 20px;
+  }
+  
+  .viewButton {
+    position: absolute;
+    bottom: 20;
+    right: 140;
+  }
+  
+  /* .idea-text {
+    font-size: 3rem;
+    line-height: 1.5rem;
+  } */
+
+
+
+/*creators profile*/
+
+#creators {
+    background-color:#e8e2ff;
+    margin-top: -20px;
+    /* margin-bottom: 50px; */
+    text-align: center;
+}
+.creators-heading {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+
+.creators-card {
+    text-align: center;
+    height: 250px;
+    border-style: dashed;
+    border-width: 10cap;
+}
+
+.bi-creators-card {
+    align-self: center;
+    margin: 15px;   
+
+}
+
+/*footer section*/
+
+#footer {
+    background-color:#1E134D;
+    padding: 7% 45%;
+}
+  
+.footer-icons {
+    margin: 5% 4% 5% 0;
+    color: white;
+}
+
+.fa {
+    padding-left: 10px;;
+}
+
+.footer-text {
+    margin-top: 10px;
+    color: white;
+}
+
+

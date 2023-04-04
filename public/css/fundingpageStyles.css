@@ -1,0 +1,102 @@
+html {
+    text-align: center;
+}
+h4 {
+    font-weight:900;
+    text-decoration: underline;
+}
+
+body {
+    background-color: #e8e2ff;
+}
+
+.fundingpage-text {
+    margin-top: 20px;
+    font-style: italic;
+}
+
+/*navbar*/
+.navbar-color {
+    background-color: #1E134D;
+}
+
+.navbar-right{
+    padding: 2px;
+    text-align: right;
+}
+
+
+.navbar-brand {
+    margin-left: 35px;
+    padding-left: 10px;
+}
+
+.brand-img1 {
+    height: 25px;
+    width: 70px;
+    color: #E4E9FD;
+}
+
+.nav-item {
+    font-size: 18px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.brand-img2 {
+    margin-top: 50px;
+    height: 50px;
+}
+
+.user-profile {
+    margin-top: -50px;
+    margin-right: 100px;
+    text-align: right;
+}
+
+.idea {
+
+    text-align: 40%;
+    width: 80%;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 6%;
+    font-family: Poppins;
+    font-size: large;
+    margin: 50px auto;
+    background: white;
+    border-radius: 7px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.support-btn {
+    margin: 50px;
+    padding-top: 5px;
+    font-size: medium;
+    background-color: #282A3A;
+    color: #E4E9FD;
+    width: 100px;
+    height: 40px;
+  }
+
+
+#footer {
+    background-color: #1E134D;
+    padding: 7% 45%;
+}
+  
+.footer-icons {
+    margin: 5% 4% 5% 0;
+    color: white;
+}
+
+.fa {
+    padding-left: 10px;;
+}
+
+.footer-text {
+    margin-top: 10px;
+    color: white;
+}
+

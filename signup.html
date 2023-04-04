@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/signupStyles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:ital@0;1&family=Poppins&display=swap" rel="stylesheet">
+    <title>Tapam</title>
+</head>
+<body>
+    <h1>Tapam</h1>
+    <div class="box">
+        <div class="form-heading">
+            <h3>Sign Up</h3>
+        </div>  
+        <form class="item" action="/" method="post">
+            <label  class="box-label" for="">First Name</label>
+            <input type="text" class="box-item firstName" name="userFirstName"></input><br>
+            <label class="box-label" for="">Last Name</label>
+            <input type="text" class="box-item lastName" name="userLastName"></input><br>
+            <label class="box-label" for="">Email</label>
+            <input type="email" class="box-item email" name="userEmail" id=""></input><br>
+            <label class="box-label" for="">Password</label>
+            <input type="password" class="box-item password" name="userPassword"></input><br>
+            <label class="box-label" for="">Confirm Password</label>
+            <input type="password" class="box-item confirmPassword" name="userConfirmPassword"></input><br>
+            <label for="" class="box-label">Describe yourself</label>
+            <input type="text" class="box-item description" name="userDescription" placeholder="3 adjectives that define you"></input><br>
+            <div class="submitButton-div">
+                <button type="submit" class="signUpButton" name="item">Sign Up</button>
+            </div>
+        </form>
+        <div class="footer">
+            <h6>Already have an account <a href="/login.html">Log In</a></h6>
+            <div id="error-message"></div>
+        </div> 
+    </div>
+    <script src="app.js"></script>
+    
+</body>
+</html>

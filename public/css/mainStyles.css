@@ -1,0 +1,197 @@
+html {
+    font-family: "Poppins";
+    
+}
+
+
+
+/*navbar*/
+.navbar-color {
+    background-color: #1E134D;
+}
+
+.white-section {
+  background-color: #6F5ACD;
+}
+
+.navbar-right{
+    padding: 2px;
+    text-align: right;
+}
+
+
+.navbar-brand {
+    margin-left: 35px;
+    padding-left: 10px;
+}
+
+.brand-img1 {
+    height: 25px;
+    width: 70px;
+    color: #E4E9FD;
+}
+
+.page-heading {
+  text-align: center;
+  background-color: #e8e2ff;
+  margin-bottom: -10px;
+  padding-bottom: 30px;
+}
+
+.page-heading-text {
+  padding-left: 50px;
+  padding-right: 300px;
+}
+
+.page-heading-image {
+  margin-top: -10px;
+}
+
+.brand-img2 {
+  margin-top: 50px;
+  height: 50px;
+}
+
+.section-heading {
+  width: 100px;
+  text-align: left;
+  padding-top: 40px;
+  padding-left: 70px;
+  margin-top: 20px;
+  font-family: "Montserrat";
+  font-size: 100px;
+  color: #1E134D;;
+}
+
+.from {
+  font-size: 70px;
+}
+
+.nav-item {
+    font-size: 18px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.dropdown {
+    margin-right: 70px;
+}
+
+/*ideas section*/
+#idea-section {
+    
+    padding: 70px;
+    padding-top: 100px; 
+    font-family: "Montserrat";
+    text-align: center;
+  }
+  
+  .idea-column {
+    padding: 5% 2%;
+  }
+
+  .card {
+    height: 350px;
+    border-radius: 25px;
+    position: relative;
+  }
+
+  .card-body {
+    padding: 20px;
+  }
+  
+  .viewButton {
+    position: absolute;
+    bottom: 20;
+    right: 140;
+  }
+  /* .idea-text {
+    font-size: 3rem;
+    line-height: 1.5rem;
+  } */
+
+  .loadmore-btn {
+    padding-top: 4px;
+    font-size: x-small;
+    background-color: #282A3A;
+    color: #E4E9FD;
+    width: 100px;
+    height: 25px;
+  }
+  
+  .have-an-idea {
+    display: block;
+  }
+
+
+  .have-an-idea-text {
+    background-color: #E8E2FF;
+    font-family: "Montserrat";
+    text-align: center;
+    padding: 50px;
+    padding-top: 250px;
+    margin-left: -80px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+  .have-an-idea-heading {
+    font-size: 4rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .have-an-idea-subheading {
+    font-size: 3rem;
+    margin: 10px;
+    margin-bottom: 50px;
+  }
+
+/*comments section*/
+#testimonials {
+    background-color: #1E134D;
+    text-align: center;
+    color: white;
+  }
+  
+  .testimonial-text {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .carousel-item {
+    padding: 7% 15%;
+  }
+  
+  .testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+
+/*footer section*/
+
+#footer {
+    background-color: white;
+    padding: 7% 45%;
+}
+  
+.footer-icons {
+    margin: 5% 4% 5% 0;
+    color: #282A3A;
+}
+
+.fa {
+    padding-left: 10px;;
+}
+
+.footer-text {
+    margin-top: 10px;
+    color: #282A3A;
+}
+
